@@ -1,14 +1,26 @@
 <!DOCTYPE html>
+<head>
 <style>
-    .img {
-        margin-bottom: auto;
+    .img-container {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        height: 300px;
+        width: 300px;
+
+    }
+    .search-bar {
+        flex-grow: 300px;
     }
 </style>
-<head></head>
+</head>
 <body>
     <center>
-        <div>
+        <div class="img-container">
             <img id="logo" alt="Google" src="/home/alex/Documents/Projects/the_odin_project/googlelogo_color_272x92dp.png"
         </div>
+        <nav class="search-bar">
+            <input>
+        </nav>
     </center>
 </body>
