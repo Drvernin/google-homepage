@@ -1,26 +1,61 @@
 <!DOCTYPE html>
+<html>
 <head>
-<style>
-    .img-container {
-        display: table-cell;
-        vertical-align: middle;
-        text-align: center;
-        height: 300px;
-        width: 300px;
-
-    }
-    .search-bar {
-        flex-grow: 300px;
-    }
-</style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
-    <center>
-        <div class="img-container">
-            <img id="logo" alt="Google" src="/home/alex/Documents/Projects/the_odin_project/googlelogo_color_272x92dp.png"
-        </div>
-        <nav class="search-bar">
-            <input>
-        </nav>
-    </center>
+<body class="grid">
+    <ul class="top_nav" id="top_nav_left">
+        <li>
+            <a href="https://about.google.com">About</a>
+        
+        </li>
+        <li>
+            <a href="https://store.google.com">Store</a>
+        </li>
+    </ul>
+    <ul class="top_nav" id="top_nav_right">
+        <li>
+            <a href="https://mail.google.com/mail/">Gmail</a>
+        </li>
+        <li>
+            <a href="https://www.google.com/imghp">Images</a>
+        </li>
+        <li>
+            <a id="allapps_a" href="https://www.google.com/intl/en/about/products"><img id="allapps" src="allapps.png"></a>
+        </li>
+        <li>
+            <a href="https://accounts.google.com">Sign in</a>
+        </li>
+    </ul>
+    <div id="main_section">
+            <img id="logo" alt="Google" src="/home/alex/Documents/Projects/the_odin_project/googlelogo_color_272x92dp.png">
+            <input id="search" type="text">
+            <div id="search_buttons">
+                <button class="search_buttons" type="button">Google search</button>
+                <button class="search_buttons" type="button">I'm Feeling Lucky</button>
+            </div>
+    </div>
+    <ul class="bottom_nav" id="bottom_nav_left">
+        <li>
+            <a href="https://www.google.com/intl/en_us/ads">Advertising</a>
+        </li>
+        <li>
+            <a href="https://www.google.com/services">Business</a>
+        </li>
+        <li>
+            <a href="https://www.google.com/search/howsearchworks">How Search Works</a>
+        </li>
+    </ul>
+    <ul class="bottom_nav" id="bottom_nav_right">
+        <li>
+            <a href="https://www.google.com/privacy">Privacy</a>
+        </li>
+        <li>
+            <a href="https://www.google.com/terms">Terms</a>
+        </li>
+        <li>
+            <a href="https://www.google.com/preferences">Settings</a>
+        </li>
+    </ul>
 </body>
+</html
